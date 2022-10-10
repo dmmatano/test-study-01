@@ -44,17 +44,17 @@ class CalculadoraTest {
         Assert.assertTrue(resultado)
     }
 
-    @Test
-    fun `teste para validar retorno false quando entrada nao for numero par`(){
-
-        //GIVEN
-        val num = 3
-
-        //WHEN
-        val resultado = calculadora.isEven(num)
-
-        //THEN
-        Assert.assertFalse(resultado)
-    }
+//    @Test
+//    fun `teste para validar retorno false quando entrada nao for numero par`(){
+//
+//        //GIVEN
+//        val num = 3
+//
+//        //WHEN
+//        val resultado = calculadora.isEven(num)
+//
+//        //THEN
+//        Assert.assertFalse(resultado)
+//    }
 
 }
